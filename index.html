@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="profile">
-        <i class="fas fa-cog"></i>
+        
         <i class="fas fa-th"></i>
         <i class="fas fa-user-circle">
 
@@ -20,13 +20,14 @@
         
         <h1>IITHBAT</h1>
         <div class="search-input">
-            <i class="fas fa-microphone"></i>
+            <i class="fas fa-microphone" onclick="webaudio_tooling_obj()"></i>
             <input type="text" id="input-field"/>
-            <button class="button"><i class="fas fa-search"></i></button>
+            <button class="button" onclick="search()"  id="search-btn"><i class="fas fa-search" ></i></button>
         </div>
        <p class="desc1">&nbsp; Search Iithbat&nbsp;</p><p class="desc2">&nbsp; Explore your recent search &nbsp;</p>
-        
+       <hr class="ruler">
+       <i class="fas fa-cog"></i>
     </div>
-   
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
