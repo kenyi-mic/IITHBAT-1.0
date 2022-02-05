@@ -1,0 +1,112 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(13, 13, 56) 75%, rgb(3, 50, 65) 25%);
+}
+.profile > i {
+  position: absolute;
+  top: 20px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.fa-user-circle {
+  position: absolute;
+  left: 95%;
+}
+.fa-th {
+  position: absolute;
+  left: 92%;
+}
+.fa-cog {
+  position: absolute;
+  left: 89%;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.search-input {
+  top: 40%;
+  left: 35%;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  width: 500px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.search-input > i {
+  font-size: 18px;
+  color: rgb(22, 21, 21);
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.search-input > #input-field {
+  width: 400px;
+  height: 35px;
+  outline: none;
+  font-size: 18px;
+  justify-content: center;
+  border: none;
+}
+.button {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  padding: 6.5px 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  white-space: pre 1px;
+}
+button > i {
+  font-size: 18px;
+  color: rgb(22, 21, 21);
+  padding: 2px 2px;
+}
+
+p {
+  display: flex;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+}
+
+.desc2 {
+  left: 50%;
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(253, 253, 253, 0.068);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+.desc1 {
+  left: 40%;
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(253, 253, 253, 0.068);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
